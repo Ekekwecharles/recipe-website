@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(24, 5%, 18%);
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 750px;
+  padding: 40px;
+  background-color: #fff;
+  margin: 100px auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.main-pic {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  /* font-weight: 400; */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.prep-time h3 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+
+ul li {
+  line-height: 2;
+}
+
+li {
+  margin-left: 25px;
+  padding-left: 20px;
+}
+
+.ingredients,
+.instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 30px;
+}
+
+.ingredients li {
+  list-style: square;
+}
+
+.instructions li {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.instructions li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 15px 0;
+}
+
+td:nth-child(1) {
+  padding-left: 30px;
+}
+
+td:nth-child(2) {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+tr:last-child td {
+  border: none;
+}
+
+/* footer */
+/* footer */
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
